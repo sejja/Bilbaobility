@@ -225,11 +225,11 @@ class _ReviewsWidgetState extends State<ReviewsWidget> {
                       padding: EdgeInsetsDirectional.fromSTEB(12, 0, 12, 0),
                       child: FlutterFlowPlacePicker(
                         iOSGoogleMapsApiKey:
-                            'AIzaSyDJFkdXcoADqW9pElPCsrKPUWxZSQbfmX0',
+                            'secret',
                         androidGoogleMapsApiKey:
-                            'AIzaSyCRFhGujPRdVu-tpVBovmP41w1lRRY6oBI',
+                            'secret',
                         webGoogleMapsApiKey:
-                            'AIzaSyACRYWUe3S_96U6pPk8QILX66s97909n-0',
+                            'secret',
                         onSelect: (place) async {
                           setState(() => placePickerValue = place);
                         },
